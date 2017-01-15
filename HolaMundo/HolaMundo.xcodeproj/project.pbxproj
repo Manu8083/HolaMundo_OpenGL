@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		9F3165461D1AEB55002E4EB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3165451D1AEB55002E4EB1 /* main.m */; };
-		9F3165491D1AEB55002E4EB1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3165481D1AEB55002E4EB1 /* AppDelegate.m */; };
 		9F31654C1D1AEB55002E4EB1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F31654B1D1AEB55002E4EB1 /* ViewController.m */; };
 		9F31654F1D1AEB55002E4EB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F31654D1D1AEB55002E4EB1 /* Main.storyboard */; };
 		9F3165511D1AEB55002E4EB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F3165501D1AEB55002E4EB1 /* Assets.xcassets */; };
 		9F3165541D1AEB55002E4EB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F3165521D1AEB55002E4EB1 /* LaunchScreen.storyboard */; };
 		9F31655F1D1AEB55002E4EB1 /* HolaMundoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F31655E1D1AEB55002E4EB1 /* HolaMundoTests.m */; };
 		9F31656A1D1AEB55002E4EB1 /* HolaMundoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3165691D1AEB55002E4EB1 /* HolaMundoUITests.m */; };
+		9FDA1A391D1C38770031D26E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3165481D1AEB55002E4EB1 /* AppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -271,8 +271,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F31654C1D1AEB55002E4EB1 /* ViewController.m in Sources */,
-				9F3165491D1AEB55002E4EB1 /* AppDelegate.m in Sources */,
 				9F3165461D1AEB55002E4EB1 /* main.m in Sources */,
+				9FDA1A391D1C38770031D26E /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +498,7 @@
 				9F3165701D1AEB55002E4EB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9F3165711D1AEB55002E4EB1 /* Build configuration list for PBXNativeTarget "HolaMundoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +507,7 @@
 				9F3165731D1AEB55002E4EB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9F3165741D1AEB55002E4EB1 /* Build configuration list for PBXNativeTarget "HolaMundoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +516,7 @@
 				9F3165761D1AEB55002E4EB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
